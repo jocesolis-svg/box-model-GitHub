@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contenedor-1{
+    color: white;
+    background-color: lightseagreen;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+
+.contenedor-2{
+    color: white;
+    background-color: fuchsia;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+
+.contenedor-3{
+    color: white;
+    background-color: blue;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+
+/*Segunda forma de hacerlo*/
+.contenedor {
+    display: flex;
+    gap: 10px; /* espacio entre los divs */
+    justify-content: space-between; /* opcional: distribuirlos */
+    text-align: center;
+}
+
+.uno{
+    color: white;
+    background-color: lightseagreen;
+    width: 50%;
+    height: 100px;
+    padding-top: 20px; /*¿Por qué si asigno padding al contenedor completo no lo toma?*/
+}
+
+.dos{
+    color: white;
+    background-color: fuchsia;
+    width: 50%;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.tres{
+    color: white;
+    background-color: blue;
+    width: 50%;
+    height: 100px;
+    padding-top: 20px;
+}
